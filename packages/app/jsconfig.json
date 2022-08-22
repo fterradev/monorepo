@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+
+    "target": "es2016",
+
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "paths": {
+      "shortcut/*": ["long/way/from/home/*"]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "references": [
+    { "path": "../business/jsconfig.json" }
+  ]
+}

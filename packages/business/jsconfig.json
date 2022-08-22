@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+
+    "target": "es2016",
+
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "paths": {
+      "shortcut/*": ["long/way/from/office/*"]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "skipLibCheck": true,
+    "composite": true
+  }
+}

@@ -1,0 +1,6 @@
+It seems like lerna adds automatically many packages to root node_modules, without ever having chosen to add them.
+Including tsconfig-paths - thus I didn't have to install it.
+
+But, in the end, I actually needed to install tsconfig-paths, because:
+1. I needed cwd parameter, which is only available in version 4 - while lerna ships with version 3.
+2. And maybe having a tsconfig-paths module per package was also needed to make each package mapping work.
