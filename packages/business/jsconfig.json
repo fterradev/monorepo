@@ -13,7 +13,8 @@
 
     "strict": true,
     "skipLibCheck": true,
-    "composite": true
-  },
-  "include": ["**/*"]
+    "composite": true,
+    "noEmit": false,
+    "outDir": "dist"
+  }
 }
