@@ -1,5 +1,5 @@
 # monorepo sample
-JS Monorepo sample with path mapping that works at both development and run times.
+JS Monorepo sample with path mapping that works at both development time and runtime.
 
 ### Installation
 1. Clone the repository.
