@@ -48,7 +48,7 @@ Note: in fact the mapping must be registered at every exposed exports. Since we 
 ## General notes
 
 ### Intellisense
-Intellisense works across packages even when the source of it is path-mapped. See the `process` function imported from `business` in the [./packages/app/src/app.js](./packages/app/src/app.js) file.
+The project is configured in a way that Intellisense works across packages, even when the source of it is path-mapped. See the `process` function imported from `business` in the [./packages/app/src/app.js](./packages/app/src/app.js) file.
 
 The `references` section in the jsconfig is what makes it work. Try removing it.
 
